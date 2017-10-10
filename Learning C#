@@ -1,0 +1,57 @@
+# Turn_Based_Strategy_Game
+/*Simple Strategy chance game. Nothing crazy. Will start as a learning experience to code in C#.*/
+using System;
+namespace HelloWorldApplication
+{ 
+  class hello_world
+  {
+    static void Main(string[] args)
+    {
+      /*my first program in C#* /
+      Console.WriteLine("Hello World");
+      Console.ReadKey();
+      }
+   }
+}      
+
+/*Implementing classes and interactions with objects
+
+using System;
+namespace RectangelApplication
+{
+   class Rectangle
+   {
+      //member variables
+      double length
+      double width
+      publicvoid Acceptdetails()
+      {  
+         length = 4.5;
+         width = 3.5;
+      }
+      
+      public double GetArea()
+      {
+         return length * width;
+      }
+      
+      public void Display()
+      {
+         Console.WriteLine("Length: {0}", length);
+         Console.WriteLine("Width: {0}", width);
+         Console.WriteLine("Area: {0}", GetArea());
+      }
+   }
+   
+   class ExecuteRectangle
+   {
+      static void Main(string[] args)
+      {
+         Rectangle r = new Rectangle();
+         r.AcceptDetails();
+         r.Display();
+         Console.ReadLine();
+      }
+   }
+}
+   
